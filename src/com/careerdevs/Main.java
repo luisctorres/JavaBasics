@@ -6,6 +6,18 @@ public class Main {
 	String firstName = "Luis";
     String lastName = "Torres";
     String fullName = firstName + " " + lastName;
-        System.out.println(fullName);
+    System.out.println(fullName);
+    createFullName("First", "Last");
     }
+
+    public static void createFullName(String firstName, String lastName) {
+        System.out.println(firstName + " " + lastName);
+
+    }
+
+
+
 }
+
+
+
